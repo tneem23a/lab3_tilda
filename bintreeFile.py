@@ -11,7 +11,7 @@ class Bintree():
     
     def put(self, newvalue):
         #sorterar in newvalue i trädet 
-        self.root = self.putta(self.rott, newvalue)
+        self.root = self.putta(self.root, newvalue)
 
     def __contains__(self, value):
         #true om value finns i trädet, false annars
